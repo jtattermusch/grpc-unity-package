@@ -28,6 +28,12 @@ cp packages/${GRPC_CORE_PKG}/runtimes/win/native/grpc_csharp_ext.x64.dll        
 cp packages/${INTERACTIVE_ASYNC_PKG}/lib/net45/System.Interactive.Async.dll       Plugins/System.Interactive.Async/lib/net45/System.Interactive.Async.dll
 cp packages/${INTERACTIVE_ASYNC_PKG}/lib/net45/System.Interactive.Async.xml       Plugins/System.Interactive.Async/lib/net45/System.Interactive.Async.xml
 
+# TODO: add iOS library
+# TODO: add Android libraries
+
+# TODO: add Grpc.Auth package..
+# TODO: add Grpc.Tools package...
+
 # Copy Custom Plugins Files
 
 #cp build.android/libgrpc_csharp_ext.so                Plugins/Grpc.Core/runtimes/android/armv7/libgrpc_csharp_ext.so
